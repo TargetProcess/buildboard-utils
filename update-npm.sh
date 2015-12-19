@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for path in "pmtool-tp" "codetool-github" "citool-travis"
+for path in "tool-tp" "tool-github" "tool-travis"
 do
     pushd ../$path
     rm -rf node_modules

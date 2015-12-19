@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 PATH=$PATH:/usr/local/bin
-for path in "pmtool-tp" "codetool-github" "citool-travis"
+for path in "tool-tp" "tool-github" "tool-travis"
 do
     pushd ../$path
     git deploy upload ../config-prod.json -r production

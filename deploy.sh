@@ -4,7 +4,7 @@ pushd ../buildboard
 meteor deploy buildboard.meteor.com --settings=../config-prod.json
 popd
 
-for path in "pmtool-tp" "codetool-github" "citool-travis"
+for path in "tool-tp" "tool-github" "tool-travis"
 do
     pushd ../$path
     git deploy upload ../config-prod.json -r production
