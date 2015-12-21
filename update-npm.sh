@@ -5,5 +5,6 @@ do
     pushd ../$path
     rm -rf node_modules
     npm install
+
     popd
 done
