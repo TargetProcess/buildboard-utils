@@ -1,0 +1,34 @@
+{
+  "apps": [
+    {
+      "name": "tp",
+      "script": "../tool-tp/src/index.js",
+      "watch": true,
+      "node_args": "--harmony_destructuring",
+      "merge_logs": true,
+      "env": {
+        "NODE_ENV": "dev"
+      }
+    },
+    {
+      "name": "github",
+      "script": "../tool-github/src/index.js",
+      "watch": true,
+      "node_args": "--harmony_destructuring",
+      "merge_logs": true,
+      "env": {
+        "NODE_ENV": "dev"
+      }
+    },
+    {
+      "name": "travis",
+      "script": "../tool-travis/src/index.js",
+      "watch": true,
+      "node_args": "--harmony_destructuring",
+      "merge_logs": true,
+      "env": {
+        "NODE_ENV": "dev"
+      }
+    }
+  ]
+}
